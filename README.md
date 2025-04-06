@@ -117,23 +117,7 @@ Deletar um livro:
 bash
 Copy
 curl -X DELETE http://localhost:8080/api/livros/{id}
-6. Estrutura do Projeto
-Copy
-biblioteca-digital/
-├── src/
-│   ├── main/
-│   │   ├── java/com/biblioteca/
-│   │   │   ├── controller/       # Endpoints da API
-│   │   │   ├── model/           # Entidades do sistema
-│   │   │   ├── repository/      # Interfaces de acesso ao banco
-│   │   │   ├── service/         # Lógica de negócio
-│   │   │   └── BibliotecaApplication.java  # Classe principal
-│   │   └── resources/
-│   │       ├── static/          # Front-end (HTML/JS/CSS)
-│   │       ├── templates/       # Templates Thymeleaf (se usado)
-│   │       └── application.properties  # Configurações
-├── pom.xml                      # Configuração do Maven
-└── README.md                    # Documentação
+
 7. Solução de Problemas Comuns
 Erro de conexão com o banco de dados
 Verifique se o MySQL está rodando
